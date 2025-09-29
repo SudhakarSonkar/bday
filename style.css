@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Professional blue gradient */
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.1); /* Subtle transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for the image */
+    margin-right: 20px;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffd700; /* Gold for the title */
+  }
+  
+  .hero .tagline {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #f0f0f0; /* Light gray for the tagline */
+  }
+  
+  /* Countdown Section */
+  #countdown h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold for the heading */
+  }
+  
+  #timer {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00ffcc; /* Aqua for the timer */
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    margin: 40px 0;
+  }
+  
+  .photos img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for the image */
+    transition: transform 0.3s ease;
+  }
+  
+  .photos img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+  }
+  
+  /* Personal Message Section */
+  .personal-message {
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .personal-message h2 {
+    font-size: 2rem;
+    color: #ffd700; /* Gold for the heading */
+  }
+  
+  .personal-message p {
+    font-size: 1.2rem;
+    color: #f0f0f0; /* Light gray for the text */
+    line-height: 1.6;
+  }
+  
+  /* Fun Facts Section */
+  .fun-facts {
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fun-facts h2 {
+    font-size: 2rem;
+    color: #ffd700; /* Gold for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .fun-facts ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .fun-facts li {
+    font-size: 1.2rem;
+    color: #f0f0f0; /* Light gray for the text */
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #f0f0f0; /* Light gray for the footer text */
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero .tagline {
+      font-size: 1.2rem;
+    }
+  
+    #countdown h2 {
+      font-size: 1.5rem;
+    }
+  
+    #timer {
+      font-size: 1.5rem;
+    }
+  
+    .photos img {
+      max-width: 250px;
+    }
+  
+    .fun-facts h2,
+    .personal-message h2 {
+      font-size: 1.5rem;
+    }
+  
+    .fun-facts li,
+    .personal-message p {
+      font-size: 1rem;
+    }
+  
+    .footer {
+      font-size: 0.9rem;
+    }
+  }
